@@ -1,6 +1,6 @@
 # Tic-Tac-Toe-Reinforcement-Learning
 
-This project tackles a classical game - Tic-Tac-Toe. Tic Tac Toe players on a 3x3 board and is well-known a "must-draw" game with an educated strategy. We demonstrate how this strategy can be trained with reinforcement learning method. The number of state of this game can be roughly estimated by 3^9 = 19,683 states, a very good number for a normal desktop computer can afford to. We use three temporal difference methods to train our strategy, because the model is known and therefore a value-table suffices to this problem. One can try to use Sarsa or Q-learning methods, literally they converge to the same optimal strategy.
+This project tackles Tic-Tac-Toe game using reinforcement learning method. Tic Tac Toe players on a 3x3 board and is well-known a "must-draw" game with an educated strategy. We demonstrate how this strategy can be trained with reinforcement learning method. The number of state of this game can be roughly estimated by 3^9 = 19,683 states, a very good number for a normal desktop computer can afford to. We use three temporal difference methods to train our strategy, because the model is known and therefore a value-table suffices to this problem. One can try to use Sarsa or Q-learning methods, literally they converge to the same optimal strategy.
 
 We train our model for 30,000 iterations, in every 2,000 iterations we use the 'trained' model to play 1,000 games and collect some stats, the result is as follows.
 
