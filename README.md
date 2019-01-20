@@ -5,19 +5,33 @@ This project tackles a classical game - Tic-Tac-Toe. Tic Tac Toe players on a 3x
 We train our model for 30,000 iterations, in every 2,000 iterations we use the 'trained' model to play 1,000 games and collect some stats, the result is as follows.
 
 Round 2000 X wins: 51.2 %, O wins 34.1 %, Draw is  14.7 %
+
 Round 4000 X wins: 34.3 %, O wins 16.5 %, Draw is  49.2 %
+
 Round 6000 X wins: 10.4 %, O wins 3.3 %, Draw is  86.3 %
+
 Round 8000 X wins: 5.0 %, O wins 1.0 %, Draw is  94.0 %
+
 Round 10000 X wins: 1.4 %, O wins 1.2 %, Draw is  97.4 %
+
 Round 12000 X wins: 1.3 %, O wins 0.0 %, Draw is  98.7 %
+
 Round 14000 X wins: 0.5 %, O wins 0.2 %, Draw is  99.3 %
+
 Round 16000 X wins: 0.7 %, O wins 0.0 %, Draw is  99.3 %
+
 Round 18000 X wins: 0.0 %, O wins 0.0 %, Draw is  100.0 %
+
 Round 20000 X wins: 0.3 %, O wins 0.0 %, Draw is  99.7 %
+
 Round 22000 X wins: 0.6 %, O wins 0.0 %, Draw is  99.4 %
+
 Round 24000 X wins: 0.0 %, O wins 0.0 %, Draw is  100.0 %
+
 Round 26000 X wins: 0.0 %, O wins 0.0 %, Draw is  100.0 %
+
 Round 28000 X wins: 0.0 %, O wins 0.0 %, Draw is  100.0 %
+
 Round 30000 X wins: 0.0 %, O wins 0.0 %, Draw is  100.0 %
 
 Our trained strategy is an optimal one. Convergence occurs roughly at round 20,000. You may try the same by running main.py from the repository.
